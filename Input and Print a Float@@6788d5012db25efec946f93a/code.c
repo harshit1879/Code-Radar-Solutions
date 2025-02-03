@@ -5,6 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    float num;
+    scanf("%f", &num);
+    printf(" you entered: %.2f\n", num);
     return 0;
 }
