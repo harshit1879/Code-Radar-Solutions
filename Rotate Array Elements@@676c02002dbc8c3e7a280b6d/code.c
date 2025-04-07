@@ -25,5 +25,5 @@ int main(){
     int k;
     scanf("%d",&k);
     rotated(arr , n , k);
-    return 0;
+    return 0
 }
